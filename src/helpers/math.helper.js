@@ -15,4 +15,3 @@ export function sumAsynchrone(number1, number2) {
 
   return Promise.resolve(number1 + number2);
 }
-

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { View, TextInput, Button, StyleSheet } from 'react-native';
+import {
+  View, TextInput, Button, StyleSheet,
+} from 'react-native';
 import GreetingsList from '../components/GreetingsList';
 
 export const GREETINGS_SCENE_NAME = 'GREETINGS_SCENE';
@@ -25,7 +27,6 @@ const styles = StyleSheet.create({
 const PLACEHOLDER = 'Ajouter un nom';
 
 export default class HomeScreen extends Component {
-
   static navigationOptions = {
     title: 'Greetings',
   };

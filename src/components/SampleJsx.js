@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Image, ScrollView } from 'react-native';
 
 export default class SampleJsx extends Component {
-
   render() {
     const monComposant = (
       <Image source={require('../../assets/NY1.jpg')} />
@@ -25,4 +24,3 @@ export default class SampleJsx extends Component {
     );
   }
 }
-

@@ -12,18 +12,17 @@ const styles = StyleSheet.create({
 
 
 export default class NavigationScreen extends Component {
-
     static navigationOptions = {
       title: 'Animation',
     };
-  
+
     render() {
       return (
-  
+
         <View style={styles.constainer}>
           <Animation />
         </View>
-  
+
       );
     }
-  }
+}

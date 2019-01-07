@@ -1,10 +1,9 @@
 import React, { Component, PropTypes } from 'react';
 import { View, Alert } from 'react-native';
-import Greeting from './Greeting';
 import _ from 'lodash';
+import Greeting from './Greeting';
 
 export default class GreetingsList extends Component {
-
   handleFunction(param) {
     Alert.alert(`Received: ${JSON.stringify(param)}`);
   }

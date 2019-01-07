@@ -31,7 +31,8 @@ export default class Info extends Component {
           To get started, edit index.android.js
         </Text>
         <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
+          Press Cmd+R to reload,
+          {'\n'}
           Cmd+D or shake for dev menu
         </Text>
       </View>

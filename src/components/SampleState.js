@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { View, Image, TouchableHighlight, Share } from 'react-native';
+import {
+  View, Image, TouchableHighlight, Share,
+} from 'react-native';
 
 const imgs = [
   require('../../assets/NY1.jpg'),
@@ -10,7 +12,6 @@ const imgs = [
 const INTERVAL_DELAY = 2000;
 
 export default class SampleState extends Component {
-
   constructor(props) {
     super(props);
 

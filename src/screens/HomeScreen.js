@@ -8,10 +8,10 @@ import {
 
 import Info from '../components/Info';
 
-import { GREETINGS_SCENE_NAME } from '../screens/GreetingsScreen';
-import { JSX_SCENE_NAME } from '../screens/JsxScreen';
-import { STATE_SCENE_NAME } from '../screens/StateScreen';
-import { ANIMATION_SCENE_NAME } from '../screens/AnimationScreen';
+import { GREETINGS_SCENE_NAME } from './GreetingsScreen';
+import { JSX_SCENE_NAME } from './JsxScreen';
+import { STATE_SCENE_NAME } from './StateScreen';
+import { ANIMATION_SCENE_NAME } from './AnimationScreen';
 
 export const HOME_SCENE_NAME = 'HOME_SCENE';
 
@@ -22,7 +22,6 @@ const styles = StyleSheet.create({
 });
 
 export default class HomeScreen extends Component {
-
   static navigationOptions = {
     title: 'Home',
   };
