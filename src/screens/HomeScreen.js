@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import Config from 'react-native-config'
 import {
   ScrollView,
   Button,
   StyleSheet,
   View,
+  Text
 } from 'react-native';
 
 import Info from '../components/Info';
@@ -54,9 +56,16 @@ export default class HomeScreen extends Component {
   }
 
   render() {
+
+    const url = Config.API_URL;
+    console.log(Config.API_URL);
+
     return (
       <ScrollView>
         <Info />
+          <Text>
+            {url}
+          </Text>
         <View style={styles.margin}>
           <Button
             onPress={this.navigateToGreetings}
